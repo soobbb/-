@@ -13,3 +13,4 @@ function outer() {
 // 그리고 outer 함수의 실행 컨텍스트는 실행 컨텍스트 스택에서 팝되어 제거된다.
 const innerFunc = outer(); // 3
 innerFunc(); // 4: 10
+
