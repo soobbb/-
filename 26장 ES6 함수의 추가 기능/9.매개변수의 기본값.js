@@ -7,4 +7,4 @@ function sum(x, y) {
 
 console.log(sum(1, 2)); // 3
 console.log(sum(1)); //  1 + undefined = 1?
-console.log(sum(1,undefined)); // 1
+console.log(sum(1, undefined)); // 1
