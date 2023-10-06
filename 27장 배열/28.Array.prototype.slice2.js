@@ -13,3 +13,4 @@ console.log(_todos === todos); // false
 
 // 배열 요소의 참조값이 같다. 즉, 얕은 복사
 console.log(_todos[0] === todos[0]); // true
+
