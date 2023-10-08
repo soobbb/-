@@ -14,3 +14,7 @@ console.log(_todos === todos); // false
 // 배열 요소의 참조값이 같다. 즉, 얕은 복사
 console.log(_todos[0] === todos[0]); // true
 
+// slice 
+const array = [1, 2, 3, 4, 5];
+const slicedArray = array.slice(1, 4);
+console.log(slicedArray); // [2, 3, 4]
